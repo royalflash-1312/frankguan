@@ -1,0 +1,100 @@
+4<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+        .content > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: white;
+        }
+        .content h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>关楷川</h1>
+    </header>
+    <nav>
+        <a href="#profile">个人简介</a>
+        <a href="#contact">联系方式</a>
+        <a href="#education">教育经历</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div id="profile">
+                <h2>个人简介</h2>
+                <p>这里写上您的个人简介。</p>
+            </div>
+            <div id="contact">
+                <h2>联系方式</h2>
+                <p>邮箱: gkc2003@berkeley.edu</p>
+                <p>电话: +86 13818194670</p>
+            </div>
+            <div id="education">
+                <h2>教育经历</h2>
+                <ul>
+                    <li>加州大学伯克利分校 - 学士学位 - 2022年至2025年</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="WechatIMG1572.jpeg" alt="我的照片" style="width:200px; height:auto;">
+        <p>版权所有 &copy; 2024 关楷川</p>
+    </footer>
+</body>
+</html>
+
+
